@@ -1,0 +1,228 @@
+*{
+    color: #fff;
+}
+
+body {
+    height: 3500px;
+    width: auto;
+    background-color: rgb(10, 7, 43);
+}
+
+main {
+    margin: 20px 100px;
+}
+
+
+
+
+.container-grid{
+
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1 fr);
+    grid-auto-rows: 200px;
+    gap: 20px;
+    
+}
+
+#logo {
+    width: 100%;
+    height: 300%;
+}
+
+
+
+.brand {
+    
+    margin-top: -1px;
+    width: 30px;
+    height: 30px;
+    padding-right: 50px;
+
+   
+    
+}
+
+
+
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+
+
+.article {
+
+    position: relative;
+    width: 100%;
+    height: 520%;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-auto-rows: 500px;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.article-col {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-auto-rows: 500px;
+    font-size: 20px;
+    font-family: open sans;
+}
+
+.history {
+
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    height: 200%;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-auto-rows: 100px;
+    gap: 100px;
+
+}
+
+.cronologia {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-template-columns: repeat(1, 250px);
+    font-size: 20px;
+    font-family: open sans;
+    margin-top: 100px;
+
+}
+
+.immagini {
+    position: relative;
+    top: 255%;
+    left: 30%;
+    width: 66%;
+    height: auto;
+}
+
+#dalai-lama {
+    position: absolute;
+    top: -600px;
+    width: 100%;
+    height: auto;
+
+
+}
+
+#calcolatrice {
+    position: absolute;
+    
+    top: 50px;
+    width: 66%;
+    height: auto;
+
+}
+
+.citazione {
+
+    position: absolute;
+    top: 80px;
+    left: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 24px;
+
+}
+
+#cinesi {
+    position: absolute;
+    top: 575px;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 500;
+    font-family: fantasy;
+    color:orangered;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    flex-wrap: wrap;
+    margin-left: 450px;
+    margin-top: -75px;
+
+}
+
+#marchio-fcc:hover{
+
+    background-color: green;
+    
+
+    
+
+
+}
+
+h2, h3 {
+    font-weight: bolder;
+    color: rgb(18, 253, 241);
+}
+
+hr {
+    width: 140px;
+    margin-left: 0px;
+    border: 1px solid grey;
+}
+
+
+.relativo {
+    position: relative;
+}
+
+.cit {
+ 
+    position: absolute;
+    top: 300px ;
+    left: 350px;
+    display: grid;
+    font-size: 24px;
+    color: rgb(18, 253, 241);
+
+}
+
+.walls {
+
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-auto-rows: 500px;
+    font-size: 20px;
+    font-family: open sans;
+
+}
+
+
+div + #primo-p::first-letter{
+    font-size: 30px;
+    color: orangered;
+}
+
