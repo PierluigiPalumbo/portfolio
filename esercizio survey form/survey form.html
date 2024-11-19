@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>survey-form</title>
+        <link rel="stylesheet" href="styles.css">
+        <header>
+        </header>
+    </head>
+    <body>
+        
+        
+        <a class="foto" href="https://media.istockphoto.com/id/1352833698/photo/cheerful-businesspeople-using-a-laptop-in-an-office.jpg?s=612x612&w=0&k=20&c=Ux3u5T6P1JHMCHV8LGrprI7-7seep8HRQpHpXRw7so0="></a>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form" action="#">
+
+        <div class="box">
+
+    <fieldset>
+        <legend>Name</legend>
+        <label for="name-label">
+        <input class="casella" type="text" name="first-name" id="name-label" placeholder="Enter your name" required>
+    </label>
+</fieldset>
+<br>
+
+<fieldset>
+    <legend>Email</legend>
+    
+        <label for="email-label">
+        <input class="casella" type="email" name="tua-mail" id="email-label" placeholder="Enter your email" required>
+    </label>
+</fieldset>
+<br>
+
+        <fieldset>
+
+    <legend>Age (optional)</legend>
+        <label for="number-label">
+        <input class="casella" type="number" name="age" id="number-label" placeholder="Age" min="13" max="100" required>
+    </label>
+</fieldset>
+<br>
+       <fieldset>
+    <legend>Which option best describes your current role?</legend>
+    <label for="dropdown">
+          <select name="ruolo" id="dropdown">
+            
+            <option value="(select-one)" name="vuoto">(select one)</option>
+            <option value="studente" name="studente">Student</option>
+            <option value="lavoro full" name="full-job">Full time job</option>
+            <option value="studioso full" name="part-time-job">Full time learner</option>
+            <option value="no comment" name="no comment">Prefer not to say</option>
+            <option value="altro" name="Other">Other</option>
+            </select>
+            </label>
+
+        </fieldset>
+<br>
+        <fieldset>
+               <legend>Would you recommend freeCodeCamp to a friend?</legend>
+               <br>
+              
+               <div>
+               <input type="radio" name="scelta" id="si"> <label for="si">Definitely</label>
+            </div>
+            <div>
+               <input type="radio" name="scelta" id="forse"> <label for="forse">Maybe</label>
+            </div>
+            <div>
+               <input type="radio" name="scelta" id="no"> <label for="no">Not sure</label>
+            </div>
+
+        </fieldset>
+<br>
+        <fieldset>
+            <legend>What is your favorite feature of freeCodeCamp?</legend>
+<br>
+            <label for="feature">
+            <select id="dropdown" name="gioco" required>
+                   <option value="">Select an option</option>
+                   <option value="sfide">challenges</option>
+                   <option value="progetti">projects</option>
+                   <option value="comunità">community</option>
+                   <option value="aperto">open source</option>
+                </label>
+            </select>
+        </fieldset>
+<br>
+        <fieldset>
+            <legend id="inline">What would you like to see improved? (Check all that apply)</legend>
+            <br>
+                <input type="checkbox" name="casella" id="front-end"> <label for="front-end">Front-end Projects</label> <br>
+                <input type="checkbox" name="casella" id="back-end"><label for="back-end"> Back-end Projects</label> <br>
+                <input type="checkbox" name="casella" id="data_visual"><label for="data_visual"> Data Visualization</label> <br>
+                <input type="checkbox" name="casella" id="challenges"><label for="challenges"> Challenges</label> <br>
+                <input type="checkbox" name="casella" id="open"><label for="open"> Open Source Community</label> <br>
+                <input type="checkbox" name="casella" id="help"><label for="help"> Gitter help rooms</label> <br>
+                <input type="checkbox" name="casella" id="videos"><label for="videos"> Videos</label> <br>
+                <input type="checkbox" name="casella" id="meetups"><label for="meetups">
+                     City Meetups
+                    </label> <br>
+                <input type="checkbox" name="casella" id="wiki"><label for="wiki"> Wiki</label> <br>
+                <input type="checkbox" name="casella" id="forum"><label for="forum"> Forum</label> <br>
+                <input type="checkbox" name="casella" id="add_courses"><label for="add_courses"> Additional Courses</label>
+
+
+        </fieldset>
+<br>
+        <fieldset>
+            <legend>Any comments or suggestions?</legend>
+            <textarea rows="4" cols="60" name="commenti" id="suggerimenti" placeholder="Enter your comment here..."></textarea>
+        </fieldset>
+<br>
+
+
+        <input type="submit" name="submit" id="submit" value="submit">
+
+        </div>
+
+            
+
+        
+        
+
+    
+    </form>
+
+
+
+    </body>
+</html>
