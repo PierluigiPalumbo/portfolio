@@ -1,0 +1,74 @@
+body {
+    margin: 150px;
+    margin-right: 39vw;
+    border: 2px solid rgba(142, 165, 136, 0.432);
+    
+}
+
+
+
+#anni {
+    color: #ffffff;
+    background-color: rgb(12, 5, 54);
+    
+}
+
+
+table {
+   
+    border-collapse: collapse;
+    text-align: left;
+}
+
+
+main {
+    width: 601px;
+    height: 858px;
+    text-align: left;
+}
+
+* {
+    font-size: 18px;
+    padding-right: 50px;
+}
+
+.bilancio {
+    
+    background-color: rgb(253, 255, 157);
+    font-weight: bold;
+}
+
+.corsivo {
+    font-style: oblique;
+}
+
+.total:hover {
+          background-color: rgb(103, 206, 103);
+}
+
+.total {
+    border-bottom: 4px double #0a0a23;
+    font-weight: bold;
+}
+
+.obliquo {
+    font-style: oblique;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+   
+}
+
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+
+}
+
